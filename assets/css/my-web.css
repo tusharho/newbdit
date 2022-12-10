@@ -1,0 +1,443 @@
+/* logo & Navbar Start */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+    box-sizing: border-box;
+ }
+header{ 
+    width: 100%;
+    background-color: crimson;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    position:sticky;
+}
+.logo img{
+    width: 150px;
+    height: 50px;
+    margin: 20px 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar ul{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li{
+    width: 180px;
+    height: 60px;
+    float: left;
+    text-align: center;
+}
+.navbar ul li a{
+    text-decoration: none;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: white;
+    
+}
+.navbar ul ul{
+    display: none;
+}
+.navbar ul ul li{
+    font-size: 18px;
+    background-color: crimson;
+}
+.navbar ul li:hover > ul{
+    display: block;
+}
+
+/* search option */
+.search{
+padding: 5px;
+margin-left: 150px;
+outline: none;
+}
+.search input{
+padding: 8px;
+border-radius: 5px;
+width: 250px;
+}
+
+/* logo & Navbar ends */
+
+/* Body Part Start */
+/* ক্যারিয়ার */
+.bodyfunction .left-side,
+.bodyfunction .right-side{
+    width: 50%;
+    float: left;
+    padding: 6px;
+}
+.bodyfunction .left-side{
+    text-align: center;
+}
+.bodyfunction img{
+    background-color: white;
+    border-radius: 15px;
+    width: 100%;
+}
+.bodyfunction h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+}
+span{
+    padding: -50px;
+    color: rgb(243, 8, 55);
+}
+.bodyfunction{
+    max-width: 1000px;
+    background-color: rgb(207, 204, 204);
+    border-radius: 15px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.text{
+    text-align: center;
+    font-size: 22px;
+}
+
+.bodyfunction a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 15px 15px;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+.bodyfunction .iso{
+    display: flex;
+    height: 60px;
+    line-height: 10px;
+}
+.bodyfunction .iso p{
+    padding-left: 15px;
+}
+.iso img{
+    width: 60px;
+    height: 60px;
+}
+.iso2{
+    font-size: 15px;
+}
+/* কোর্সসমূহ */
+.course{
+    width: 1000px;
+    height: 500px;
+    background-color:rgb(219, 216, 216);
+    margin: 0 auto;
+    margin-top: 0px;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+.cour{
+    margin: 30px;
+    padding: 5px;
+    background-color:rgb(211, 212, 212);
+    border-radius: 15px;
+}
+.ptext{
+    font-size: 20px;
+    margin: -20px 0px;
+}
+
+/* course design */
+
+.desing1{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 15px;
+ }
+ .desing1 img{
+    width: 300px;
+    height: 180px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+ }
+ .des{
+    font-size: 20px;
+    font-weight: bold;
+ }
+.desing2{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+.desing2 img{
+    width: 300px;
+    height: 180px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+ }
+ .des{
+    font-size: 20px;
+    font-weight: bold;
+ }
+ .desin3{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+.desin3 img{
+    width: 300px;
+    height: 180px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+ }
+ .des{
+    font-size: 20px;
+    font-weight: bold;
+ }
+ 
+ /* সফলতা */
+.sofolota{
+    width: 1000px;
+    height: 420px;
+    background-color:rgb(217, 240, 232);
+    margin-top: 45px;
+    border-radius: 15px;
+    float: left;
+}
+.sofolota1{
+    width: 300px;
+    height: 350px;
+    background-color:rgb(233, 245, 207);
+    margin-top: 38px;
+    border-radius: 15px;
+    float: left;
+    margin-left: 25px;
+}
+.sofo{
+    color: #00acee;
+}
+.sofolota2{
+    width: 300px;
+    height: 350px;
+    background-color:rgb(226, 226, 222);
+    margin-top: 38px;
+    border-radius: 15px;
+    float: left;
+    margin-left: 25px;
+}
+.sofo1{
+    color: #e93dbe;
+}
+.sofolota3{
+    width: 300px;
+    height: 350px;
+    background-color:rgba(226, 226, 222, 0.562);
+    margin-top: 38px;
+    border-radius: 15px;
+    float: left;
+    margin-left: 25px;
+}
+
+.sofo5{
+    color: #e93d54;
+}
+
+
+/* বিশেষ সেবা */
+
+.bdit{
+    background-color: ivory;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.shabap{
+    font-size: 20px;
+}
+
+.shaba{
+    width: 1000px;
+    height: 600px;
+    background-color:rgb(217, 240, 232);
+    margin-top: 20px;
+    border-radius: 15px;
+    float: left;
+}
+.shaba1{
+    width: 300px;
+    height: 350px;
+    background-color:rgb(245, 207, 209);
+    margin-top: 20px;
+    border-radius: 15px;
+    float: left;
+    margin-left: 25px;
+}
+.shaba1 img{
+    margin-left: -150px;
+    margin-top: 25px;
+}
+
+.shaba2{
+    width: 300px;
+    height: 350px;
+    background-color:rgb(226, 226, 222);
+    margin-top: 20px;
+    border-radius: 15px;
+    float: left;
+    margin-left: 25px;
+}
+.shaba2 img{
+    margin-left: -150px;
+    margin-top: 25px;
+}
+
+
+.shaba3{
+    width: 300px;
+    height: 350px;
+    background-color:rgb(224, 222, 226);
+    margin-top: 20px;
+    border-radius: 15px;
+    float: left;
+    margin-left: 25px;
+}
+
+.shaba3 img{
+    margin-left: -150px;
+    margin-top: 25px;
+}
+
+.admission{
+    width: 1000px;
+    height: 120px;
+    background-color:rgb(250, 248, 248);
+    margin-top: 1400px;
+    border-radius: 15px;
+}
+.adm{
+    padding-top: 10px;
+}
+.adm1{
+    font-size: 18px;
+}
+/* form */
+.form{
+    width: 1000px;
+    height: 430px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 15px;
+}
+.form input{
+    width: 600px;
+    padding: 10px;
+}
+.submit{
+    width: 120px;
+    background-color:red;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+}
+.submit a{
+    text-decoration: none;
+    color: white;
+}
+.vorti{
+    font-size: 25px;
+    font-weight: bold;
+} 
+
+.payment img{
+    width: 1000px;
+    height: 200px;
+    margin-left: 267px;
+}
+
+/* Body Part ends */
+
+
+.box{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(240, 10, 10);
+    margin-top: 1602px;
+} 
+
+/* footer start */
+.footer{
+    width: 100%;
+    height: 230px;
+    background-color: dimgray;
+    position: relative;
+    bottom: 0;    
+    color: white;   
+    margin-top: -20px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.address{
+    text-align: center;
+}
+i{    
+    font-size: 35px;
+    padding: 20px;
+    margin-top: -40px;
+    margin-left: 20px;
+}
+.fa-brands, .fab {
+    font-weight: 400;
+    margin-top: -9px;
+}
+.fa-facebook{
+    color:darkblue;
+    
+}
+.fa-twitter{
+    color: #00acee;
+}
+.fa-youtube{
+    color:red ;
+}
+.footer2{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    color: rgb(250, 250, 250);
+    text-align: center;
+    
+}    
+.footer2 p{
+    margin-top: 15px;
+    
+}
+
+/* footer ends */

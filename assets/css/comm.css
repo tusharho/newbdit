@@ -1,0 +1,23 @@
+#communication .comm{
+    text-align: center;
+    background-color: white;
+}
+#communication .comm1{
+    color: red;
+}
+#communication .map{
+    margin: auto 350px;
+    text-align: center;
+}
+#communication .address{
+    background-color: white;
+}
+#communication .office{
+    text-align: center;
+}
+#communication .office1{
+    text-align: center;
+}
+#communication .office2{
+    text-align: center;
+}
